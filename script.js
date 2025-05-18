@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyCBEDympZY8jgERLN2Y7Ot95YBEPcm2SXo"; // 👈 coloque sua API key aqui
+const API_KEY = "AIzaSyCBEDympZY8jgERLN2Y7Ot95YBEPcm2SXo";
 const MODEL_ID = "gemini-1.5-flash";
 const chatLog = document.getElementById("chat-log");
 const promptInput = document.getElementById("prompt");
@@ -105,12 +105,10 @@ function limparChat() {
  respostasQuiz = {};
 }
 
-// Adiciona o listener para a tecla Enter no input de texto
 promptInput.addEventListener("keypress", function(event) {
  if (event.key === "Enter") {
- event.preventDefault(); // Impede a quebra de linha padrão
+ event.preventDefault(); 
  enviarResposta();
  }
 });
 
-//AIzaSyCBEDympZY8jgERLN2Y7Ot95YBEPcm2SXo

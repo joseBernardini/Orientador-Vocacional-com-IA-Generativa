@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    font-size: 16px; /* Aumentando a fonte base do body */
+    font-size: 16px; 
    }
    
    .chat-container {
@@ -40,12 +40,12 @@ body {
    }
    
    .mensagem {
-    padding: 14px 20px; /* Aumentando o padding para acompanhar a fonte */
+    padding: 14px 20px; 
     border-radius: 12px;
     margin-bottom: 10px;
     width: fit-content;
     max-width: 80%;
-    font-size: 18px; /* Aumentando a fonte das mensagens */
+    font-size: 18px;
     line-height: 1.6;
    }
    
@@ -63,12 +63,12 @@ body {
    
    #prompt {
     width: calc(100% - 24px);
-    padding: 16px; /* Aumentando o padding */
+    padding: 16px; 
     background: #121212;
     color: #fff;
     border: 1px solid #333;
     border-radius: 8px;
-    font-size: 18px; /* Aumentando a fonte da área de texto */
+    font-size: 18px; 
     resize: none;
     margin-bottom: 15px;
    }
@@ -80,7 +80,7 @@ body {
    
    .button-container button {
     flex-grow: 1;
-    padding: 16px 32px; /* Aumentando o padding dos botões */
+    padding: 16px 32px; 
     background: #009cd1;
     border: none;
     color: rgb(0, 0, 0);
@@ -88,7 +88,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease;
-    font-size: 18px; /* Aumentando a fonte dos botões */
+    font-size: 18px; 
    }
    
    .button-container button:hover {
